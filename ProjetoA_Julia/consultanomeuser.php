@@ -16,8 +16,7 @@
         <nav>
             <ul>
                 <li><a href="index.php">Menu</a></li>
-                <li><a href="consultaamigos.php">Consulte Amigos </a></li>
-                <li><a href="consultacomercio.php">Consulte Comércio</a></li>
+
             </ul>
         </nav>
     </header>
@@ -31,7 +30,7 @@
         $linha = mysqli_fetch_array($executar);
         
 
-        if($linha) {
+
     ?> 
 
 
@@ -40,7 +39,7 @@
     <input type="text" name="" value="<?php echo $linha ['nome'] ?>"/>
 
     <label for="">E-mail:</label>
-    <input type="e-mail" name="" value="<?php echo $linha ['email'] ?>"/>
+    <input type="email" name="" value="<?php echo $linha ['email'] ?>"/>
 
     <label for="">Senha:</label>
     <input type="password" name="" value="<?php echo $linha ['senha'] ?>"/>
@@ -52,7 +51,7 @@
         } else {
             echo "<div class='mensagem'><h2>Usuário não encontrado. Verifique o nome e tente novamente.</h2></div>";
         }
-    }
+    
     ?>
 
          <footer>
