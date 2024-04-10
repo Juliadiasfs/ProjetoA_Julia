@@ -16,8 +16,7 @@
         <nav>
             <ul>
                 <li><a href="index.php">Menu</a></li>
-                <li><a href="consultaamigos.php">Consulte Amigos </a></li>
-                <li><a href="consultanomeuser.php">Consulte Usuário</a></li>
+
             </ul>
         </nav>
     </header>

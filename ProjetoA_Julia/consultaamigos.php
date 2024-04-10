@@ -16,8 +16,6 @@
         <nav>
             <ul>
                 <li><a href="index.php">Menu</a></li>
-                <li><a href="consultanomeuser.php">Consulte Usuário </a></li>
-                <li><a href="consultacomercio.php"> Consulte Comércio</a></li>
             </ul>
         </nav>
     </header>
