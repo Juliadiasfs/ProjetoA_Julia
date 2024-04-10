@@ -44,7 +44,7 @@
         </p>
     </form>
 
-    <form id="consultaForm" style="display:none;">
+    <form action="consultanomeuuser.php" id="consultaForm" style="display:none;">
         Digite o nome completo: <br />
         <input type="text" name="cxpesquisanome" />
         <input type="submit" value="Buscar" />

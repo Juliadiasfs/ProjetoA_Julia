@@ -36,7 +36,7 @@
             <input type="text" name="" value="<?php echo $linha['amigo'] ?>"/>
 
             <label for="">E-mail:</label>
-            <input type="e-mail" name="" value="<?php echo $linha['email'] ?>"/>
+            <input type="email" name="" value="<?php echo $linha['email'] ?>"/>
 
             <label for="">Telefone:</label>
             <input type="text" name="" value="<?php echo $linha['telefone'] ?>"/>
